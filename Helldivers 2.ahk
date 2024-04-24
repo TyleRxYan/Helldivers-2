@@ -20,7 +20,15 @@ Gui, Add, DDL, Choose1 x75 y25 w175 vFirstStratagem gAction, % stratagems
 Gui, Add, DDL, Choose2 x75 y50 w175 vSecondStratagem gAction, % stratagems
 Gui, Add, DDL, Choose3 x75 y75 w175 vThirdStratagem gAction, % stratagems
 Gui, Add, DDL, Choose4 x75 y100 w175 vFourthStratagem gAction, % stratagems
-Gui, Show, w275 h150, Easy Stratagems
+Gui, Add, GroupBox, x10 w250 h140, Build-in Stratagems
+Gui, Add, Text, x25 y155, Numpad+ Resupply
+Gui, Add, Text, x145 y155, Numpad- Reinforce
+Gui, Add, Text, x25 y180, Numpad* SosBeacon
+Gui, Add, Text, x145 y180, Numpad/ HellBomb
+Gui, Add, Text, x25 y205, Numpad. UploadData
+Gui, Add, Text, x25 y230, Numpad9 EagleRearm
+Gui, Add, Text, x25 y255, NumpadEnter SeafArtillery
+Gui, Show, w275 h300, Easy Stratagems
 return
 
 GuiClose:
